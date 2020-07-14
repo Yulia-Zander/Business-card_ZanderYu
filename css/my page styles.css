@@ -1,0 +1,206 @@
+
+
+body {
+    width: 70%;
+    margin: 0 auto;
+    padding: 0px 40px 10px;
+    font-size: 20px;
+    font-family: 'Noto Serif KR', Arial, Helvetica, sans-serif;
+    line-height: 1.5;
+    text-align: left;
+    background: white;
+    border: 15px solid rgb(192, 218, 192);
+}
+
+body, h1, h2 {
+    display: block;
+    min-width: auto;
+    max-width: 1200px;
+}
+
+
+.menu {
+    display: flex;
+    flex-direction: row-reverse;
+    justify-content: center;
+    margin-bottom: 0px;
+    padding: 10px; 
+    max-width: 1200px;
+
+}
+
+a { color: gray;
+
+}
+
+.menu a { 
+    position: relative;
+    margin-left: 10px;
+    font-weight: 400;
+    font-size: 16px;
+}
+ 
+
+
+.info__about p {
+    display: block;
+    min-width: auto;
+    min-height: 200px;
+    padding-left: 40px;
+    padding-right: 0px;
+    margin: 0px;
+}
+
+
+h1 {
+    position: relative;
+    margin-top: 0px;
+    margin-bottom: 0px;
+    text-align: center;
+    font-family:'Noto Serif JP', 'Times New Roman', serif;
+}
+
+
+
+.info__text {
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-start;
+    align-items: center;
+    max-width: 1200px;
+    min-width: auto;
+    margin-bottom: 0px;
+    margin-top: 0px;
+
+}
+
+.info__photo {
+ margin: 0px;
+ padding: 5px;
+
+}
+
+
+ol {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: flex-start;
+    margin: 0px;
+    padding-inline-start: 0px;
+    font-size: 20px;
+    font-family: 'Noto Serif KR', Arial, Helvetica, sans-serif;
+}
+
+ul {
+    font-size: 20px;
+    font-family: 'Noto Serif KR', Arial, Helvetica, sans-serif;
+}
+
+
+.education {
+    margin-top: -60px;
+}
+
+.ff, .econom {
+padding: 5px;
+margin: 0px 25px;
+max-width: 500px;
+text-align: justify;}
+
+
+.logo {
+    padding-left: 120px;
+}
+
+.logo2__img {
+    display: block;
+    position: relative;
+    top: 25px;
+}
+
+
+.about_me__Yulia, .job {
+    font-weight: 700;
+}
+
+
+table { 
+    display: block;
+    position: relative;
+    margin: 0px 40px;
+    border-color: white;
+    width: auto;
+    text-align: center;
+    overflow: auto;
+    font-size: 20px;
+    font-family: 'Noto Serif KR', Arial, Helvetica, sans-serif; 
+}
+
+.skills thead {
+    font-weight: bold;
+    font-size: 25px;
+    color: white;
+    padding: 10px 20px;
+    line-height: 1.5;
+    overflow: hidden;
+    width: 300px;
+}
+
+.skills td {
+    border-collapse: collapse;
+    text-align: center;
+    background: rgb(192, 218, 229);
+    padding: 20px;
+    max-width: 300px;
+    overflow: hidden;
+    }
+
+.hobby__text {
+        display: flex;
+        flex-direction: row;
+        align-items: center;
+        justify-content: center;
+        text-align: justify;
+        margin: 0px;
+    }
+
+
+.hobby__calipso { 
+    display: block;
+}
+
+.hobby__volley__photo {
+    display: block;
+    margin-top: 50px;
+}
+
+.Calipso {text-align: center;
+
+}
+
+
+.adress {
+display: flex;
+flex-direction: row;
+justify-content: space-between;
+margin: 10px;
+}
+.adress div { 
+    display: block;
+    margin-bottom: 10px;
+    margin-top: 0;
+    margin-right: 40px ;
+}
+
+.footer {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    margin-top: 10px;
+    margin-bottom: 0;
+    font-size: 14px;
+    text-align: center;
+    color: gray;
+}
+/*
